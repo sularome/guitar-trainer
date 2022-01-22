@@ -62,6 +62,7 @@ function App() {
     return () => {
       scheduler.current?.unsubscribe(moveToNextNote);
     }
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   useEffect(() => {
