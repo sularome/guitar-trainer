@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap');
+
 .App {
   text-align: center;
 }
@@ -19,15 +21,18 @@
 
 .current-note {
   font-size: 4rem;
-  color: #ff1800;
-  font-family: Times New Roman;
+  color: #3f2b29;
+  font-family: 'Playfair Display', serif;
   width: 100%;
 }
 
 .controls button{
   width: 100%;
-  background:#ff1800;
+  background:#31aa37;
   color:#fff;
   padding:10px 0;
   border: none;
+}
+.controls button.paused{
+  background:#ff1800;
 }

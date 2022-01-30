@@ -92,7 +92,7 @@ function App() {
 <div className='current-note'>
         <h1>{Note[state.note]}</h1></div>
         <div className='controls'>
-          <button onClick={toggle}>{state.isPaused ? "Resume" : "Pause"}</button>
+          <button onClick={toggle} className={state.isPaused ? "playing" : "paused"}>{state.isPaused ? "Resume" : "Pause"}</button>
         </div>
         <div className='change-next-note-time'>
           <input type="number" value={state.nextNoteTime / 1000} onChange={e => changeNextNoteTime(parseInt(e.target.value, 10))} />
