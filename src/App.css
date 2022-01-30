@@ -2,6 +2,32 @@
   text-align: center;
 }
 
+.App *{
+  box-sizing: border-box;
+}
+
 .change-next-note-time {
-  padding: 10px 0;
+  width:100%;
+}
+
+.change-next-note-time input{
+  width: 100%;
+  padding: 10px;
+  border-left: none;
+  border-top:none;
+}
+
+.current-note {
+  font-size: 4rem;
+  color: #ff1800;
+  font-family: Times New Roman;
+  width: 100%;
+}
+
+.controls button{
+  width: 100%;
+  background:#ff1800;
+  color:#fff;
+  padding:10px 0;
+  border: none;
 }

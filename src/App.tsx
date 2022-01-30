@@ -89,9 +89,9 @@ function App() {
 
   return (
     <div className="App">
-
-        <h1>{Note[state.note]}</h1>
-        <div>
+<div className='current-note'>
+        <h1>{Note[state.note]}</h1></div>
+        <div className='controls'>
           <button onClick={toggle}>{state.isPaused ? "Resume" : "Pause"}</button>
         </div>
         <div className='change-next-note-time'>
