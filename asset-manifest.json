@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/guitar-trainer/static/css/main.4681d65b.css",
+    "main.js": "/guitar-trainer/static/js/main.548930b2.js",
+    "static/js/377.45177a80.chunk.js": "/guitar-trainer/static/js/377.45177a80.chunk.js",
+    "service-worker.js": "/guitar-trainer/service-worker.js",
+    "index.html": "/guitar-trainer/index.html",
+    "main.4681d65b.css.map": "/guitar-trainer/static/css/main.4681d65b.css.map",
+    "main.548930b2.js.map": "/guitar-trainer/static/js/main.548930b2.js.map",
+    "377.45177a80.chunk.js.map": "/guitar-trainer/static/js/377.45177a80.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4681d65b.css",
+    "static/js/main.548930b2.js"
+  ]
+}
